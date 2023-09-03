@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black &amp; White</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/pace.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- js -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <header id="site-header">
+        <div class="row">
+            <div class="col-md-4 col-sm-5 col-xs-8">
+                <div class="logo">
+                    <h1><a href="index.html"><b>Black</b> &amp; White</a></h1>
+                </div>
+            </div><!-- col-md-4 -->
+            <div class="col-md-8 col-sm-7 col-xs-4">
+                <nav class="main-nav" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="trigger-overlay" class="navbar-toggle">
+                            <span class="ion-navicon"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="cl-effect-11"><a href="index.html" data-hover="首页">首页</a></li>
+                            <li class="cl-effect-11"><a href="full-width.html" data-hover="博客">博客</a></li>
+                            <li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
+                            <li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+                <div id="header-search-box">
+                    <a id="search-menu" href="#"><span id="search-icon" class="ion-ios-search-strong"></span></a>
+                    <div id="search-form" class="search-form">
+                        <form role="search" method="get" id="searchform" action="#">
+                            <input type="search" placeholder="搜索" required>
+                            <button type="submit"><span class="ion-ios-search-strong"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- col-md-8 -->
+        </div>
+    </header>
+</div>
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">博客</a></div>
+<div class="copyrights">Modified by <a href="http://zmrenwu.com/">追梦人物的博客</a></div>
+
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+            <main class="col-md-8">
+                <article class="post post-1">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html"> 就聊聊不少小IT公司的技术总监</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">博客展示</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2022-11-09T23:15:57+00:00">2022年12月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>本文想告诉大家如下两个观点。 1 很多IT小公司的技术总监，论能力其实也就是相当于大公司的高级程序员。 2 程序员在职业发展过程中，绝对应该优先考虑进大厂或好公司。如果仅仅停留在小公司，由于小公司可能无法接触到值钱的技术，所以哪怕做到小公司的技术总监，依然可能会遇到大龄危机。 我见过不少小公司，比如 ...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-2">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">Mysql索引覆盖</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#"> 博客展示</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2022-11-09T23:15:57+00:00">2022年12月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>通常情况下，我们创建索引的时候只关注 where 条件，不过这只是索引优化的一个方向。优秀的索引设计应该纵观整个查询，而不仅仅是 where 条件部分，还应该关注查询所包含的列。索引确实是一种高效的查找数据方式，但是 mysql 也可以从索引中直接获取数据，这样就不在需要读数据行了。 ...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-3">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">如何配置 SLO</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">博客展示</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2022-11-09T23:15:57+00:00">2022年12月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>前言 无论是对外提供 IaaS PaaS SaaS 的云公司，还是提供信息技术服务的乙方公司，亦或是金融 制造等各行各业的数据中心、运维部门...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-4">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">大数据 - DWS层 业务实现</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">博客展示</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2022年12月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>统计主题 需求指标【ADS】输出方式计算来源来源层级 访客【DWS】pv可视化大屏page_log 直接可求dwd UV（DAU）可视化大屏需要用 page_log 过滤去重dwm UJ 跳出率可视化大屏需要通过 page_log 行为判断dwm 进入页面数可视化大屏需要识别开始访问标识dwd 连续 ...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- 简单分页效果
+                <div class="pagination-simple">
+                    <a href="#">上一页</a>
+                    <span class="current">第 6 页 / 共 11 页</span>
+                    <a href="#">下一页</a>
+                </div>
+                -->
+                <div class="pagination">
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">...</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li class="current"><a href="">6</a></li>
+                        <li><a href="">7</a></li>
+                        <li><a href="">8</a></li>
+                        <li><a href="">...</a></li>
+                        <li><a href="">11</a></li>
+                    </ul>
+                </div>
+            </main>
+            <aside class="col-md-4">
+                <div class="widget widget-recent-posts">
+                    <h3 class="widget-title">最新文章</h3>
+                    <ul>
+                        <li>
+                            <a href="#">就聊聊不少小IT公司的技术总监</a>
+                        </li>
+                        <li>
+                            <a href="#">大数据 - DWS层 业务实现</a>
+                        </li>
+                        <li>
+                            <a href="#">如何配置 SLO</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget widget-archives">
+                    <h3 class="widget-title">归档</h3>
+                    <ul>
+                        <li>
+                            <a href="#">2022 年 12 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2022 年 11 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2022 年 10 月</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-category">
+                    <h3 class="widget-title">分类</h3>
+                    <ul>
+                        <li>
+                            <a href="#">博客展示 <span class="post-count">(13)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Python 教程 <span class="post-count">(11)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">网络认证 <span class="post-count">(8)</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-tag-cloud">
+                    <h3 class="widget-title">标签云</h3>
+                    <ul>
+                        <li>
+                            <a href="#">C#</a>
+                        </li>
+                        <li>
+                            <a href="#">Python</a>
+                        </li>
+                        <li>
+                            <a href="#">Java</a>
+                        </li>
+                        <li>
+                            <a href="#">笔记</a>
+                        </li>
+                        <li>
+                            <a href="#">文档</a>
+                        </li>
+                        <li>
+                            <a href="#">AngularJS</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">JavaScript</a>
+                        </li>
+                        <li>
+                            <a href="#">Snippet</a>
+                        </li>
+                        <li>
+                            <a href="#">jQuery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rss">
+                    <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer id="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright">&copy 2022 - 采集自<a href="http://www.cssmoban.com/"
+                                                        target="_blank" title="BLOG">博客</a>
+                    - 由<a href="http://zmrenwu.com/" title="网页" target="_blank">追梦人物的博客</a>修改
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mobile Menu -->
+<div class="overlay overlay-hugeinc">
+    <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="full-width.html">博客</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
